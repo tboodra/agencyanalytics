@@ -1,0 +1,42 @@
+title: Navigation
+fields:
+  -
+    handle: navigation_links
+    field:
+      collapse: false
+      sets:
+        navigation_item:
+          display: 'Navigation Item'
+          fields:
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: true
+                display: Title
+                type: text
+                icon: text
+                instructions: 'The title you''d like the link to display'
+                listable: hidden
+                validate:
+                  - required
+            -
+              handle: link
+              field:
+                display: Link
+                type: link
+                icon: link
+                listable: true
+            -
+              handle: display_as_button
+              field:
+                display: 'Display as button'
+                type: toggle
+                icon: toggle
+                instructions: 'Should this link display as a button?'
+                listable: hidden
+      display: 'Navigation links'
+      type: replicator
+      icon: replicator
+      instructions: 'Create a list of links to display in a navigation'
+      listable: true

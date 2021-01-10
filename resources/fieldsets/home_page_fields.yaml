@@ -1,0 +1,36 @@
+title: 'Home Page Fields'
+fields:
+  -
+    handle: home_page_h1
+    field:
+      input_type: text
+      antlers: true
+      display: 'Home Page h1'
+      type: text
+      icon: text
+      instructions: 'The H1 for the home page'
+      listable: hidden
+  -
+    handle: hero_image_left
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: 'Hero Image Left'
+      type: assets
+      icon: assets
+      instructions: 'The image that appears on the left of the hero section'
+      listable: hidden
+  -
+    handle: hero_image_right
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: 'Hero Image Right'
+      type: assets
+      icon: assets
+      instructions: 'The image that appears on the left of the hero section'
+      listable: hidden

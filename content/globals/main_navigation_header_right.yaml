@@ -1,0 +1,15 @@
+title: 'Main Navigation (header right)'
+data:
+  navigation_links:
+    -
+      link: 'entry::50c51037-46b6-48f2-b35a-ca2dfcac5056'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Login
+    -
+      link: 'entry::822d2388-98e5-4c84-8edc-0bd0a2f67539'
+      display_as_button: true
+      type: navigation_item
+      enabled: true
+      title: 'Get Started'

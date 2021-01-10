@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site:name }}</title>
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">    </head>
+    <body class="">
+        <div class="page-wrapper">
+            <nav class="flex main-nav-header" role="navigation">
+                <div class="nav-left">
+                    {{ main_navigation_header_left }}
+                        {{navigation_links}}
+                            <a href="{{ link }}" class="main-nav-header__link {{ if display_as_button == "true" }} button{{ /if }}">{{title}}</a>
+                        {{/navigation_links}}
+                    {{ /main_navigation_header_left }}
+                </div>
+                <div class="nav-right">
+                    {{ main_navigation_header_right }}
+                        {{navigation_links}}
+                            <a href="{{ link }}" class="main-nav-header__link {{ if display_as_button == "true" }} button{{ /if }}">{{title}}</a>
+                        {{/navigation_links}}
+                    {{ /main_navigation_header_right }}
+                </div>
+            </nav>
+            <main class="flex main-content-wrapper">
+            {{ template_content }}
+            </main>
+        </div>
+        <script src="{{ mix src='/js/site.js' }}"></script>
+    </body>
+</html>

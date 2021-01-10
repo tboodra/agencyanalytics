@@ -1,0 +1,45 @@
+title: 'Main Navigation (header left)'
+data:
+  navigation_links:
+    -
+      link: 'entry::e7b0ea27-18d0-43e9-9dad-a21c6fc80402'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Solutions
+    -
+      link: 'entry::fcdbb408-e775-46c8-8e8e-423eb07e66f5'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Features
+    -
+      link: 'entry::b527cb52-0e08-4de2-b4d3-818c91d6cfa5'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Docs
+    -
+      link: 'entry::73b30b33-316b-4bfa-9c0a-a4238b5cb9e2'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Pricing
+    -
+      link: 'entry::d107b987-a789-4c99-be73-3bd7759088f9'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: FAQs
+    -
+      link: 'entry::ebdaf05c-1026-4c51-8bc5-3729e96b106f'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Company
+    -
+      link: 'entry::51a2cc02-785b-4a55-8716-e0d121d1c12c'
+      display_as_button: false
+      type: navigation_item
+      enabled: true
+      title: Blog

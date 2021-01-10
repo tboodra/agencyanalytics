@@ -1,0 +1,25 @@
+
+.flex{
+    display:flex;
+}
+.page-wrapper{
+    width: 100%;
+    max-width: 1300px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.main-content-wrapper{
+    justify-content: space-between;
+    align-items:center;
+}
+
+.button{
+    background: $blue;
+    color: $white;
+    transition: background-color $fast-transition;
+    &:hover{
+        background-color: $dark-blue;
+    } 
+}

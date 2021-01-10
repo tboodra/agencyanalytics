@@ -1,0 +1,45 @@
+form{
+    &.get-your-demo{
+        display:flex; 
+        margin-top: 50px;
+    }
+    input[type=email] {
+        display: inline-block;
+        width: 400px;
+        font-size: 16px;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        background: $input-background;
+        border-radius: 3px;
+        padding: 12px 10px 12px 20px;
+        font-family: $primary-font;       
+    }
+    button[type=submit]{
+        background: $blue;
+        color: $white;
+        margin-left:20px;
+        border:none;
+        border-radius:3px;
+        font-size: 16px;
+        padding: 0px 20px;
+        font-family: $primary-font;   
+        cursor: pointer;
+        transition: background-color 0.2s;
+        &:hover{
+            background-color: $dark-blue;
+        } 
+    }
+}
+::placeholder { 
+    color: $input-placeholder-text;
+    opacity: 1; 
+}
+  
+:-ms-input-placeholder { 
+    color: $input-placeholder-text;
+}
+  
+::-ms-input-placeholder { 
+    color: $input-placeholder-text;
+}

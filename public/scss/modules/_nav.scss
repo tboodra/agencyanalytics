@@ -1,0 +1,28 @@
+.main-nav-header {
+    justify-content: space-between;
+    align-items: center;
+    padding-top:25px;
+    &__link{
+        font-family: $primary-font;    
+        color: $dark-blue;
+        text-decoration:none;
+        &:hover{
+            text-decoration: underline;
+        }
+        &.button{ 
+            display:inline-block;
+            padding: 15px 20px; 
+            border-radius: 5px;
+            color:$white;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    .nav-left a{ 
+        margin-right: 20px;
+    }
+    .nav-right a{ 
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+title: Pages
+revisions: false
+route: '{parent_uri}/{slug}'
+structure:
+  root: true
+  tree:
+    -
+      entry: home
+    -
+      entry: e7b0ea27-18d0-43e9-9dad-a21c6fc80402
+    -
+      entry: fcdbb408-e775-46c8-8e8e-423eb07e66f5
+    -
+      entry: b527cb52-0e08-4de2-b4d3-818c91d6cfa5
+    -
+      entry: 73b30b33-316b-4bfa-9c0a-a4238b5cb9e2
+    -
+      entry: d107b987-a789-4c99-be73-3bd7759088f9
+    -
+      entry: ebdaf05c-1026-4c51-8bc5-3729e96b106f
+    -
+      entry: 51a2cc02-785b-4a55-8716-e0d121d1c12c
+    -
+      entry: 50c51037-46b6-48f2-b35a-ca2dfcac5056
+    -
+      entry: 822d2388-98e5-4c84-8edc-0bd0a2f67539

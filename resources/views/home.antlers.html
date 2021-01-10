@@ -1,0 +1,23 @@
+
+
+<div class="hero flex">
+    {{ assets:hero_image_left }}
+    <img src="{{ url }}" alt="{{ alt }}" />
+    {{ /assets:hero_image_left }}
+
+    <div class="hero__middle">
+        <h1>{{ home_page_h1 }}</h1>
+        {{ form:get_your_demo class="get-your-demo"}}
+                {{ fields }}
+                    <div class="">
+                        <div class="">{{ field }}</div>
+                    </div>
+                {{ /fields }}
+                <button type="submit">Get Your Demo</button>
+        {{ /form:get_your_demo }}
+    </div>
+
+    {{ assets:hero_image_right }}
+    <img src="{{ url }}" alt="{{ alt }}" />
+    {{ /assets:hero_image_right }}
+</div>
