@@ -1,6 +1,5 @@
 form{
     &.get-your-demo{
-        display:flex; 
         margin-top: 50px;
     }
     input[type=email] {
@@ -29,6 +28,17 @@ form{
         &:hover{
             background-color: $dark-blue;
         } 
+    }
+    .form-message{
+        font-family: $primary-font;
+        text-align: center;
+        margin-top: 30px;
+        .green-check{
+            color: $green;
+        }
+        .red-x{
+            color: $red;
+        }
     }
 }
 ::placeholder { 

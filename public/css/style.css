@@ -142,7 +142,6 @@ table {
 }
 
 form.get-your-demo {
-  display: flex;
   margin-top: 50px;
 }
 form input[type=email] {
@@ -171,6 +170,17 @@ form button[type=submit] {
 }
 form button[type=submit]:hover {
   background-color: #36476c;
+}
+form .form-message {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+form .form-message .green-check {
+  color: #1fb141;
+}
+form .form-message .red-x {
+  color: #df000f;
 }
 
 ::placeholder {

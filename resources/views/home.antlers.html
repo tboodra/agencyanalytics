@@ -8,13 +8,23 @@
     <div class="hero__middle">
         <h1>{{ home_page_h1 }}</h1>
         {{ form:get_your_demo class="get-your-demo"}}
+            <div class="flex">
                 {{ fields }}
-                    <div class="">
-                        <div class="">{{ field }}</div>
-                    </div>
+                    <div class="get-your-demo__field">{{ field }}</div>
                 {{ /fields }}
                 <button type="submit">Get Your Demo</button>
+            </div>
+                {{ if success }} 
+                    <div class="form-message"><span class="green-check">&#10003;</span> Thank you! We'll be in touch shortly.</div>
+                {{ else }}
+                    {{ if errors }}
+                    <div class="form-message"><span class="red-x">&#x2717;</span> Uh-oh, something went wrong. Please try again.</div>
+                    {{ /if }}
+                {{ /if }}
+
+
         {{ /form:get_your_demo }}
+
     </div>
 
     {{ assets:hero_image_right }}
